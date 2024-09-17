@@ -1,0 +1,14 @@
+{
+  "name": "simple_cli",
+  "version": "1.0.0",
+  "bin": {
+      "simplecli": "./index.js"
+    },
+  "description": "first cli app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anhelina Romanchuk",
+  "license": "ISC"
+}
