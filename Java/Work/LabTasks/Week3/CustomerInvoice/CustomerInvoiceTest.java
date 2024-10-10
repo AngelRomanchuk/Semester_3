@@ -1,6 +1,6 @@
 package Java.Work.LabTasks.Week3.CustomerInvoice;
 
-public class Demo {
+public class CustomerInvoiceTest {
     public static void main(String[] args) {
         // Create some Customer instances
         Customer customer1 = new Customer(1, "Alice", 15); // 15% discount
@@ -11,7 +11,6 @@ public class Demo {
         Invoice invoice2 = new Invoice(1002, customer2, 150.00); // $150
 
         // Display information for the first invoice
-        System.out.println();
         System.out.println("Invoice ID: " + invoice1.getID());
         System.out.println("Customer Name: " + invoice1.getCustomerName());
         System.out.println("Original Amount: $" + invoice1.getAmount());
@@ -34,6 +33,5 @@ public class Demo {
         System.out.println("Customer Name: " + invoice1.getCustomerName());
         System.out.println("Original Amount: $" + invoice1.getAmount());
         System.out.println("New Amount After Discount: $" + invoice1.getAmountAfterDiscount());
-        System.out.println();
     }
 }
