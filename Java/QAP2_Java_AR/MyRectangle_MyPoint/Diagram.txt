@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+    MyPoint      
+--------------------------
+ - x: int         
+ - y: int         
+---------------------------
+ + MyPoint(int x, int y) 
+ + getX(): int    
+ + getY(): int 
+ + setX(int x): void 
+ + setY(int y): void
+ + setXY(int x, int y): void  
+ + toString(): String 
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+    MyRectangle    
+--------------------------------
+ - topLeft: MyPoint 
+ - bottomRight: MyPoint 
+---------------------------------
+ + MyRectangle(MyPoint topLeft, MyPoint bottomRight) 
+ + getWidth(): int 
+ + getHeight(): int 
+ + getArea(): int   
+ + getPerimeter(): int
+ + toString(): String 
+-------------------------------------------------------------------------------
