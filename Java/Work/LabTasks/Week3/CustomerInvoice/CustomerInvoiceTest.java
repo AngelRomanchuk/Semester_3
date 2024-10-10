@@ -11,6 +11,7 @@ public class CustomerInvoiceTest {
         Invoice invoice2 = new Invoice(1002, customer2, 150.00); // $150
 
         // Display information for the first invoice
+        System.out.println();
         System.out.println("Invoice ID: " + invoice1.getID());
         System.out.println("Customer Name: " + invoice1.getCustomerName());
         System.out.println("Original Amount: $" + invoice1.getAmount());
@@ -33,5 +34,6 @@ public class CustomerInvoiceTest {
         System.out.println("Customer Name: " + invoice1.getCustomerName());
         System.out.println("Original Amount: $" + invoice1.getAmount());
         System.out.println("New Amount After Discount: $" + invoice1.getAmountAfterDiscount());
+        System.out.println();
     }
 }
